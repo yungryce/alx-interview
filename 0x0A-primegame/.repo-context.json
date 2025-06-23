@@ -1,0 +1,96 @@
+{
+  "project_identity": {
+    "name": "0x0A-primegame",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "Strategic game theory problem using prime number mathematics and optimal strategy algorithms",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["Python"],
+    "secondary": ["Game Theory", "Prime Numbers", "Mathematical Optimization"],
+    "key_libraries": [],
+    "development_tools": ["Python 3.x"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Game Theory Algorithms",
+      "Prime Number Theory",
+      "Strategic Optimization",
+      "Mathematical Reasoning",
+      "Competitive Programming"
+    ],
+    "domain": [
+      "Game Theory",
+      "Number Theory",
+      "Mathematical Optimization",
+      "Strategic Thinking"
+    ],
+    "professional": [
+      "Strategic Analysis",
+      "Mathematical Problem Solving",
+      "Competitive Programming"
+    ],
+    "competency_level": "advanced"
+  },
+  "components": {
+    "prime_game": {
+      "type": "module",
+      "path": "0-prime_game.py",
+      "description": "Main prime game strategy implementation"
+    },
+    "test_suite": {
+      "type": "test",
+      "path": "main_0.py",
+      "description": "Test cases for prime game algorithm"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Python 3.x"],
+    "dependencies": [],
+    "skills_prerequisite": [
+      "Prime number concepts",
+      "Game theory basics",
+      "Strategic thinking"
+    ]
+  },
+  "learning_outcomes": [
+    "Master game theory and optimal strategies",
+    "Understand prime number applications",
+    "Practice competitive programming techniques",
+    "Develop mathematical reasoning skills",
+    "Implement efficient prime algorithms"
+  ],
+  "assessment_criteria": {
+    "functionality": "Correct winner determination",
+    "efficiency": "Optimal strategy implementation",
+    "code_quality": "Clean game logic",
+    "edge_cases": "Handle various round configurations"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["game-theory", "prime-numbers", "strategy", "competitive-programming"],
+    "difficulty_rating": 8,
+    "estimated_hours": 5
+  }
+}

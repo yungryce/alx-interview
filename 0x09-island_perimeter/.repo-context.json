@@ -1,0 +1,96 @@
+{
+  "project_identity": {
+    "name": "0x09-island_perimeter",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "Grid traversal algorithm for calculating island perimeter in 2D grid representation",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["Python"],
+    "secondary": ["Grid Algorithms", "Boundary Detection"],
+    "key_libraries": [],
+    "development_tools": ["Python 3.x"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Grid Traversal",
+      "Boundary Detection",
+      "2D Array Processing",
+      "Spatial Analysis",
+      "Computational Geometry"
+    ],
+    "domain": [
+      "Computational Geometry",
+      "Spatial Analysis",
+      "Grid-based Algorithms",
+      "Geographic Information Systems"
+    ],
+    "professional": [
+      "Problem Analysis",
+      "Spatial Reasoning",
+      "Algorithm Design"
+    ],
+    "competency_level": "beginner"
+  },
+  "components": {
+    "perimeter_calculator": {
+      "type": "module",
+      "path": "0-island_perimeter.py",
+      "description": "Main island perimeter calculation implementation"
+    },
+    "test_suite": {
+      "type": "test",
+      "path": "main_0.py",
+      "description": "Test cases for island perimeter calculation"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Python 3.x"],
+    "dependencies": [],
+    "skills_prerequisite": [
+      "2D array manipulation",
+      "Basic grid concepts",
+      "Loop structures"
+    ]
+  },
+  "learning_outcomes": [
+    "Master grid traversal algorithms",
+    "Understand boundary detection techniques",
+    "Practice 2D array processing",
+    "Develop spatial reasoning skills",
+    "Apply computational geometry concepts"
+  ],
+  "assessment_criteria": {
+    "functionality": "Correct perimeter calculation",
+    "efficiency": "Linear time complexity O(m*n)",
+    "code_quality": "Clean grid processing logic",
+    "edge_cases": "Handle empty grids and edge boundaries"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["grid-algorithms", "boundary-detection", "2d-arrays", "geometry"],
+    "difficulty_rating": 3,
+    "estimated_hours": 2
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "project_identity": {
+    "name": "0x06-starwars_api",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "API integration project using Star Wars API for character data processing",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["JavaScript"],
+    "secondary": ["REST API", "Asynchronous Programming"],
+    "key_libraries": ["request", "Node.js"],
+    "development_tools": ["Node.js", "npm"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "REST API Integration",
+      "Asynchronous Programming",
+      "HTTP Requests",
+      "JSON Data Processing",
+      "Promise Handling"
+    ],
+    "domain": [
+      "Web Development",
+      "API Consumption",
+      "Data Processing",
+      "External Service Integration"
+    ],
+    "professional": [
+      "API Documentation Reading",
+      "Error Handling",
+      "Data Validation"
+    ],
+    "competency_level": "intermediate"
+  },
+  "components": {
+    "starwars_characters": {
+      "type": "module",
+      "path": "0-starwars_characters.js",
+      "description": "Main script for fetching and displaying Star Wars characters"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Node.js", "npm"],
+    "dependencies": ["request"],
+    "skills_prerequisite": [
+      "JavaScript fundamentals",
+      "Asynchronous programming",
+      "API concepts"
+    ]
+  },
+  "learning_outcomes": [
+    "Master REST API integration",
+    "Understand asynchronous request handling",
+    "Practice JSON data processing",
+    "Develop API consumption skills",
+    "Handle external service integration"
+  ],
+  "assessment_criteria": {
+    "functionality": "Correct character data retrieval",
+    "efficiency": "Proper asynchronous handling",
+    "code_quality": "Clean JavaScript implementation",
+    "edge_cases": "Handle API errors gracefully"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["api-integration", "javascript", "async", "rest-api"],
+    "difficulty_rating": 4,
+    "estimated_hours": 3
+  }
+}

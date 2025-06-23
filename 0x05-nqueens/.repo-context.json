@@ -1,0 +1,91 @@
+{
+  "project_identity": {
+    "name": "0x05-nqueens",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "Classic N-Queens problem using backtracking algorithms and constraint satisfaction",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["Python"],
+    "secondary": ["Backtracking", "Constraint Satisfaction"],
+    "key_libraries": ["sys"],
+    "development_tools": ["Python 3.x"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Backtracking Algorithms",
+      "Constraint Satisfaction",
+      "Recursive Problem Solving",
+      "Chess Logic",
+      "Systematic Search"
+    ],
+    "domain": [
+      "Algorithm Design",
+      "Problem Solving",
+      "Game Theory",
+      "Combinatorial Optimization"
+    ],
+    "professional": [
+      "Complex Problem Solving",
+      "Strategic Thinking",
+      "Algorithm Optimization"
+    ],
+    "competency_level": "advanced"
+  },
+  "components": {
+    "nqueens_solver": {
+      "type": "module",
+      "path": "0-nqueens.py",
+      "description": "Main N-Queens backtracking solver"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Python 3.x"],
+    "dependencies": [],
+    "skills_prerequisite": [
+      "Recursion and backtracking",
+      "Chess rules knowledge",
+      "Algorithm design"
+    ]
+  },
+  "learning_outcomes": [
+    "Master backtracking algorithms",
+    "Understand constraint satisfaction problems",
+    "Practice systematic search with pruning",
+    "Develop complex problem-solving strategies",
+    "Apply chess logic to algorithms"
+  ],
+  "assessment_criteria": {
+    "functionality": "Find all valid N-Queens solutions",
+    "efficiency": "Optimized backtracking with pruning",
+    "code_quality": "Clean recursive implementation",
+    "edge_cases": "Handle invalid input appropriately"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["backtracking", "constraint-satisfaction", "chess", "recursion"],
+    "difficulty_rating": 7,
+    "estimated_hours": 5
+  }
+}

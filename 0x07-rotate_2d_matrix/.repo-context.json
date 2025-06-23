@@ -1,0 +1,96 @@
+{
+  "project_identity": {
+    "name": "0x07-rotate_2d_matrix",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "In-place 90-degree matrix rotation using advanced matrix manipulation algorithms",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["Python"],
+    "secondary": ["Matrix Algorithms", "Linear Algebra"],
+    "key_libraries": [],
+    "development_tools": ["Python 3.x"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Matrix Manipulation",
+      "In-place Algorithms",
+      "2D Array Processing",
+      "Linear Algebra",
+      "Space Optimization"
+    ],
+    "domain": [
+      "Linear Algebra",
+      "Image Processing",
+      "Geometric Transformations",
+      "Algorithm Design"
+    ],
+    "professional": [
+      "Memory Optimization",
+      "Algorithm Efficiency",
+      "Mathematical Reasoning"
+    ],
+    "competency_level": "intermediate"
+  },
+  "components": {
+    "matrix_rotator": {
+      "type": "module",
+      "path": "0-rotate_2d_matrix.py",
+      "description": "Main in-place matrix rotation implementation"
+    },
+    "test_suite": {
+      "type": "test",
+      "path": "main_0.py",
+      "description": "Test cases for matrix rotation"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Python 3.x"],
+    "dependencies": [],
+    "skills_prerequisite": [
+      "2D array manipulation",
+      "Linear algebra basics",
+      "In-place algorithm concepts"
+    ]
+  },
+  "learning_outcomes": [
+    "Master matrix manipulation algorithms",
+    "Understand in-place transformations",
+    "Practice space-efficient algorithms",
+    "Develop geometric reasoning",
+    "Apply linear algebra to programming"
+  ],
+  "assessment_criteria": {
+    "functionality": "Correct 90-degree rotation",
+    "efficiency": "O(1) space complexity",
+    "code_quality": "Clean matrix operations",
+    "edge_cases": "Handle empty and single-element matrices"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["matrix-algorithms", "linear-algebra", "in-place", "rotation"],
+    "difficulty_rating": 5,
+    "estimated_hours": 3
+  }
+}

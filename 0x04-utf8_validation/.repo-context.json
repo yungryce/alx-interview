@@ -1,0 +1,96 @@
+{
+  "project_identity": {
+    "name": "0x04-utf8_validation",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "UTF-8 character encoding validation using bit manipulation techniques",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["Python"],
+    "secondary": ["Bit Manipulation", "Character Encoding"],
+    "key_libraries": [],
+    "development_tools": ["Python 3.x"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Bit Manipulation",
+      "Character Encoding",
+      "Binary Operations",
+      "UTF-8 Standard",
+      "Data Validation"
+    ],
+    "domain": [
+      "Computer Science Fundamentals",
+      "Character Encoding",
+      "Data Structures",
+      "Algorithm Design"
+    ],
+    "professional": [
+      "Standards Compliance",
+      "Data Validation",
+      "Low-level Programming"
+    ],
+    "competency_level": "intermediate"
+  },
+  "components": {
+    "utf8_validator": {
+      "type": "module",
+      "path": "0-validate_utf8.py",
+      "description": "Main UTF-8 validation implementation"
+    },
+    "test_suite": {
+      "type": "test",
+      "path": "main_0.py",
+      "description": "Test cases for UTF-8 validation"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Python 3.x"],
+    "dependencies": [],
+    "skills_prerequisite": [
+      "Bit manipulation",
+      "Binary number systems",
+      "Character encoding concepts"
+    ]
+  },
+  "learning_outcomes": [
+    "Master bit manipulation techniques",
+    "Understand UTF-8 encoding standard",
+    "Practice binary operations",
+    "Develop data validation skills",
+    "Apply low-level programming concepts"
+  ],
+  "assessment_criteria": {
+    "functionality": "Correct UTF-8 validation",
+    "efficiency": "Optimal bit manipulation",
+    "code_quality": "Clear binary operations",
+    "edge_cases": "Handle invalid sequences properly"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["bit-manipulation", "utf8", "character-encoding", "validation"],
+    "difficulty_rating": 6,
+    "estimated_hours": 4
+  }
+}

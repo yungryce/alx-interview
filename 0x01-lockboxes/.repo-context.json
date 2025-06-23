@@ -1,0 +1,96 @@
+{
+  "project_identity": {
+    "name": "0x01-lockboxes",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "Graph connectivity challenge using DFS/BFS algorithms to determine if all lockboxes can be unlocked",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["Python"],
+    "secondary": ["Graph Algorithms", "DFS", "BFS"],
+    "key_libraries": ["collections"],
+    "development_tools": ["Python 3.x"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Graph Traversal Algorithms",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Connectivity Analysis",
+      "Set Operations"
+    ],
+    "domain": [
+      "Graph Theory",
+      "Algorithm Design",
+      "Problem Modeling",
+      "Data Structures"
+    ],
+    "professional": [
+      "Problem Abstraction",
+      "Algorithm Selection",
+      "Complexity Analysis"
+    ],
+    "competency_level": "intermediate"
+  },
+  "components": {
+    "lockboxes_function": {
+      "type": "module",
+      "path": "0-lockboxes.py",
+      "description": "Main implementation of lockboxes connectivity algorithm"
+    },
+    "test_suite": {
+      "type": "test",
+      "path": "main_0.py",
+      "description": "Test cases for lockboxes algorithm"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Python 3.x"],
+    "dependencies": [],
+    "skills_prerequisite": [
+      "Graph theory basics",
+      "DFS/BFS understanding",
+      "Python sets and lists"
+    ]
+  },
+  "learning_outcomes": [
+    "Master graph traversal algorithms",
+    "Understand connectivity problems",
+    "Practice problem modeling",
+    "Implement efficient search strategies",
+    "Apply graph theory to practical problems"
+  ],
+  "assessment_criteria": {
+    "functionality": "Correct connectivity determination",
+    "efficiency": "O(n + k) time complexity",
+    "code_quality": "Clean algorithm implementation",
+    "edge_cases": "Handle invalid keys and empty boxes"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["graph-algorithms", "dfs", "bfs", "connectivity", "interview-prep"],
+    "difficulty_rating": 5,
+    "estimated_hours": 4
+  }
+}

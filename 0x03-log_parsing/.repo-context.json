@@ -1,0 +1,91 @@
+{
+  "project_identity": {
+    "name": "0x03-log_parsing",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "Real-time log parsing system with signal handling and statistical analysis",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["Python"],
+    "secondary": ["Stream Processing", "Signal Handling", "Regular Expressions"],
+    "key_libraries": ["re", "signal", "sys"],
+    "development_tools": ["Python 3.x"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Stream Processing",
+      "Signal Handling",
+      "Regular Expressions",
+      "Statistical Analysis",
+      "Real-time Data Processing"
+    ],
+    "domain": [
+      "System Monitoring",
+      "Log Analysis",
+      "Data Processing",
+      "Pattern Matching"
+    ],
+    "professional": [
+      "System Design",
+      "Error Handling",
+      "Production Monitoring"
+    ],
+    "competency_level": "intermediate"
+  },
+  "components": {
+    "log_parser": {
+      "type": "module",
+      "path": "0-stats.py",
+      "description": "Main log parsing and statistics calculation script"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Python 3.x", "Unix/Linux signals"],
+    "dependencies": [],
+    "skills_prerequisite": [
+      "Regular expressions",
+      "Signal handling",
+      "Stream processing"
+    ]
+  },
+  "learning_outcomes": [
+    "Master real-time data stream processing",
+    "Understand signal handling in Python",
+    "Practice regular expressions and pattern matching",
+    "Develop system monitoring skills",
+    "Implement statistical analysis algorithms"
+  ],
+  "assessment_criteria": {
+    "functionality": "Correct log parsing and statistics",
+    "efficiency": "Real-time processing capability",
+    "code_quality": "Robust signal handling",
+    "edge_cases": "Handle invalid log formats gracefully"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["stream-processing", "regex", "signal-handling", "system-monitoring"],
+    "difficulty_rating": 5,
+    "estimated_hours": 4
+  }
+}

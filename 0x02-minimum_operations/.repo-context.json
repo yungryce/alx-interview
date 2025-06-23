@@ -1,0 +1,96 @@
+{
+  "project_identity": {
+    "name": "0x02-minimum_operations",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "Mathematical optimization problem using prime factorization to find minimum operations",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["Python"],
+    "secondary": ["Prime Factorization", "Mathematical Optimization"],
+    "key_libraries": [],
+    "development_tools": ["Python 3.x"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Prime Factorization",
+      "Mathematical Optimization",
+      "Number Theory",
+      "Algorithm Design",
+      "Recursive Problem Solving"
+    ],
+    "domain": [
+      "Mathematics",
+      "Number Theory",
+      "Optimization",
+      "Algorithm Analysis"
+    ],
+    "professional": [
+      "Mathematical Reasoning",
+      "Problem Decomposition",
+      "Efficiency Analysis"
+    ],
+    "competency_level": "intermediate"
+  },
+  "components": {
+    "minoperations_function": {
+      "type": "module",
+      "path": "0-minoperations.py",
+      "description": "Main implementation of minimum operations calculation"
+    },
+    "test_suite": {
+      "type": "test",
+      "path": "main_0.py",
+      "description": "Test cases for minimum operations algorithm"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Python 3.x"],
+    "dependencies": [],
+    "skills_prerequisite": [
+      "Prime number understanding",
+      "Mathematical reasoning",
+      "Algorithm optimization"
+    ]
+  },
+  "learning_outcomes": [
+    "Understand mathematical optimization problems",
+    "Master prime factorization algorithms",
+    "Practice recursive problem decomposition",
+    "Develop mathematical reasoning for algorithms",
+    "Apply number theory to programming"
+  ],
+  "assessment_criteria": {
+    "functionality": "Correct minimum operations calculation",
+    "efficiency": "Optimal prime factorization approach",
+    "code_quality": "Clean mathematical implementation",
+    "edge_cases": "Handle n ≤ 1 appropriately"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["mathematics", "prime-factorization", "optimization", "interview-prep"],
+    "difficulty_rating": 6,
+    "estimated_hours": 3
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "project_identity": {
+    "name": "0x08-making_change",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "Classic coin change problem implementation using dynamic programming optimization",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["Python"],
+    "secondary": ["Dynamic Programming", "Optimization"],
+    "key_libraries": [],
+    "development_tools": ["Python 3.x"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Dynamic Programming",
+      "Optimization Algorithms",
+      "Memoization",
+      "Bottom-up Problem Solving",
+      "Greedy vs Optimal Solutions"
+    ],
+    "domain": [
+      "Algorithm Design",
+      "Mathematical Optimization",
+      "Problem Solving",
+      "Computational Complexity"
+    ],
+    "professional": [
+      "Algorithm Analysis",
+      "Optimization Thinking",
+      "Problem Decomposition"
+    ],
+    "competency_level": "intermediate"
+  },
+  "components": {
+    "change_maker": {
+      "type": "module",
+      "path": "0-making_change.py",
+      "description": "Main coin change dynamic programming implementation"
+    },
+    "test_suite": {
+      "type": "test",
+      "path": "main_0.py",
+      "description": "Test cases for making change algorithm"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Python 3.x"],
+    "dependencies": [],
+    "skills_prerequisite": [
+      "Dynamic programming concepts",
+      "Algorithm optimization",
+      "Mathematical reasoning"
+    ]
+  },
+  "learning_outcomes": [
+    "Master dynamic programming algorithms",
+    "Understand coin change optimization",
+    "Practice bottom-up problem solving",
+    "Develop algorithmic optimization skills",
+    "Apply optimal substructure principles"
+  ],
+  "assessment_criteria": {
+    "functionality": "Correct minimum coin calculation",
+    "efficiency": "Optimal dynamic programming approach",
+    "code_quality": "Clean DP implementation",
+    "edge_cases": "Handle impossible change scenarios"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["dynamic-programming", "optimization", "coin-change", "algorithms"],
+    "difficulty_rating": 6,
+    "estimated_hours": 4
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "project_identity": {
+    "name": "0x00-pascal_triangle",
+    "type": "container",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "Implementation of Pascal's Triangle generation using dynamic programming principles",
+    "curriculum_stage": "foundation"
+  },
+  "tech_stack": {
+    "primary": ["Python"],
+    "secondary": ["Dynamic Programming"],
+    "key_libraries": [],
+    "development_tools": ["Python 3.x"],
+    "testing_frameworks": ["Custom Test Cases"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Dynamic Programming",
+      "Mathematical Pattern Recognition",
+      "List Manipulation",
+      "Algorithm Optimization",
+      "Binomial Coefficients"
+    ],
+    "domain": [
+      "Mathematics",
+      "Combinatorics",
+      "Algorithm Design",
+      "Problem Solving"
+    ],
+    "professional": [
+      "Code Documentation",
+      "Edge Case Handling",
+      "Complexity Analysis"
+    ],
+    "competency_level": "intermediate"
+  },
+  "components": {
+    "pascal_triangle_function": {
+      "type": "module",
+      "path": "0-pascal_triangle.py",
+      "description": "Main implementation of Pascal's Triangle generation"
+    },
+    "documentation": {
+      "type": "documentation",
+      "path": "README.md",
+      "description": "Comprehensive project documentation"
+    },
+    "architecture": {
+      "type": "documentation",
+      "path": "ARCHITECTURE.md",
+      "description": "Technical architecture and design documentation"
+    },
+    "manifest": {
+      "type": "documentation",
+      "path": "PROJECT-MANIFEST.md",
+      "description": "Learning objectives and project manifest"
+    }
+  },
+  "requirements": {
+    "system": ["Python 3.x"],
+    "dependencies": [],
+    "skills_prerequisite": [
+      "Basic Python programming",
+      "Understanding of lists",
+      "Mathematical reasoning"
+    ]
+  },
+  "learning_outcomes": [
+    "Understand Pascal's Triangle mathematical properties",
+    "Implement dynamic programming solutions",
+    "Practice efficient algorithm design",
+    "Master list manipulation techniques",
+    "Apply mathematical concepts to programming"
+  ],
+  "assessment_criteria": {
+    "functionality": "Correct Pascal's Triangle generation",
+    "efficiency": "O(n²) time complexity",
+    "code_quality": "Clean, readable Python code",
+    "edge_cases": "Handle n ≤ 0 appropriately"
+  },
+  "metadata": {
+    "creation_date": "2025-06-23",
+    "last_modified": "2025-06-23",
+    "contributors": ["ALX Software Engineering Program"],
+    "tags": ["algorithm", "mathematics", "dynamic-programming", "interview-prep"],
+    "difficulty_rating": 4,
+    "estimated_hours": 3
+  }
+}
